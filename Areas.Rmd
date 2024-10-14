@@ -30,3 +30,10 @@ AreaTri<-Base*Altura/2
 
 
 Area del rectangulo
+
+```{r}
+Lado1<-5
+Lado2<-4
+AreaRect<-Lado1*Lado2
+```
+
