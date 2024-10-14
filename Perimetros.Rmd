@@ -9,9 +9,18 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+Perimetro de un cuadro
 ```{r}
-#Perimetro de un cuadro
-Lado<-3
-PeriCua<-4*Lado
+
+PerimCuad<-function(L){
+  return(4*L)
+}
+```
+
+Perimetro de una circunferencia
+```{r}
+PerimCirc<-function(r){
+  return(2*pi*r)
+}
 ```
 
