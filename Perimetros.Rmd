@@ -1,0 +1,26 @@
+---
+title: "Perimetro"
+author: "Sergio Sebastiá"
+date: "2024-10-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Perimetro de un cuadro
+```{r}
+
+PerimCuad<-function(L){
+  return(4*L)
+}
+```
+
+Perimetro de una circunferencia
+```{r}
+PerimCirc<-function(r){
+  return(2*pi*r)
+}
+```
+
