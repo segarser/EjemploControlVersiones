@@ -8,12 +8,25 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+Area de la circunferencia 
 ```{r}
 r<-0.5
-Area<-pi*r^2
+AreaCir<-pi*r^2
 ```
 
+Area del Cuadrado
 ```{r}
 Lado<-3
-AreaCuadrado<-Lado^2
+AreaCua<-Lado^2
 ```
+
+Area del triangulo
+```{r}
+Base<-5
+Altura<-6
+AreaTri<-Base*Altura/2
+```
+
+
+Area del rectangulo
