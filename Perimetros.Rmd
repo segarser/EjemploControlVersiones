@@ -27,7 +27,7 @@ PerimCirc<-function(r){
 Perimetro de un rectangulo
 ```{r}
 PerimRec<-function(a,b){
-  return(2(a+b))
+  return((a+b)*2)
 }
 ```
 
