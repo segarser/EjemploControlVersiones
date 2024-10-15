@@ -37,3 +37,12 @@ Lado2<-4
 AreaRect<-Lado1*Lado2
 ```
 
+Area de un trapecio
+
+```{r}
+B<-5
+b<-4
+H<-4.5
+AreaTrap<-(B+b)*H/2
+```
+
