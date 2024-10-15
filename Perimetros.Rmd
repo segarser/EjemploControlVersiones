@@ -20,7 +20,14 @@ PerimCuad<-function(L){
 Perimetro de una circunferencia
 ```{r}
 PerimCirc<-function(r){
-  return(2*pi*r)
+  return(2*3.14159*r)
+}
+```
+
+Perimetro de un rectangulo
+```{r}
+PerimRec<-function(a,b){
+  return(2(a+b))
 }
 ```
 
